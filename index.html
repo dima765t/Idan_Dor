@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idan Dor</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: #2c2c2c url('stars-background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: linear-gradient(to right, #6a0dad, #9b30ff);
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        header, main, footer {
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+        .cta-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .cta {
+            display: block;
+            width: 80%;
+            max-width: 400px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        .cta:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            padding: 10px;
+            background: linear-gradient(to right, #6a0dad, #9b30ff);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">עמוד הבית</a></li>
+            <li><a href="#">הסיפור</a></li>
+            <li><a href="#">מאמרים</a></li>
+            <li><a href="#">זיכרונות</a></li>
+            <li><a href="#">צור קשר</a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1>לזכרו של עידן דור הי״ד</h1>
+        <p>אתר הנצחה לזכרו של אהובנו, שנרצח ב-7 באוקטובר 2023 בפסטיבל נובה</p>
+    </header>
+
+    <main>
+        <section class="cta-container">
+            <a href="story.html" class="cta">הסיפור</a>
+            <a href="articles.html" class="cta">מאמרים</a>
+            <a href="family-stories.html" class="cta">זיכרונות ממשפחה וחברים</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 כל הזכויות שמורות</p>
+    </footer>
+</body>
+</html>
